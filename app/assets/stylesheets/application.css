@@ -1,0 +1,132 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+	margin:17px 0;
+}
+h2 {
+	margin:16px 0;
+}
+a {
+  color:#000;
+}
+a:visited{
+	color:#666;
+}
+
+a:active{
+	background-color:#666;
+}
+ul{font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.hptitle{
+	margin:17px 0;
+}
+table{
+	table-layout:auto;
+}
+body{
+	background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+th{
+	padding-bottom:1px 1px 5px;
+	white-space: nowrap;
+
+}
+td{
+	padding:1px 5px 7px;
+}
+.new.book{
+	margin:16px 0;
+}
+.Title{
+	margin-bottom:10px;
+}
+.Body{
+	margin-bottom:10px;
+}
+.Title1{
+	margin-bottom:10px;
+
+}
+.Body1{
+	margin-bottom:10px;
+}
+.cb{
+	margin:0 0 10px;
+}
+.showtitle{
+	margin:33px;
+}
+.showfont{
+	font-weight: bold;
+}
+.showbody{
+	margin:33px;
+}
+.icon{
+	display:inline-block;
+}
+.top-text{
+	margin:33px;
+	text-align:left;
+}
+.top-link{
+	margin:33px 0;
+}
+.alert-alert-warinig {
+    width: 450px;
+    border: 2px solid red;
+    padding: 7px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+.error-count{
+	    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+}
+.field_with_errors{
+	padding: 2px;
+    background-color: red;
+    display: table;
+}
+.flash{
+	color:green;
+}
